@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>HTML only website hosted on GitHub</title>
-		<link rel="stylesheet"/>
+		<link href="/empty.css" rel="stylesheet"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
@@ -23,27 +23,23 @@
 		<main>
 		<section>
 			<h2>Experience</h2>
-			<p>
-			I have been using Java since I was 12, and have been programming in C/C++ and JavaScript for almost as long. Over this time, I became familiar with using git as VCS and with IDEs such as Intelij and VS Code. 
+			<p>I have been using Java since I was 12, and have been programming in C/C++ and JavaScript for almost as long. Over this time, I became familiar with using git as VCS and with IDEs such as Intelij and VS Code.</p>
 			<aside>I love computers!</aside>
-			<br/>
-			In the last few years I have expanded on the languages and technologies I am familiar with to include Python, ReactJS and Linux. I am always eager to learn about new technologies and write more performant, readable, and scalable code to meet the requirements of the project.
-			</p>
+			<p>In the last few years I have expanded on the languages and technologies I am familiar with to include Python, ReactJS and Linux. I am always eager to learn about new technologies and write more performant, readable, and scalable code to meet the requirements of the project.</p>
 		</section>
 		<section>
 			<h3>Personal Life</h3>
 			<p>
 			I am currently living in the <i>beautiful</i> costal town of <a href="https://www.google.com/maps/place/Half+Moon+Bay,+CA/@37.4753073,-122.4309357,13.25z/data=!4m5!3m4!1s0x808f0ba50a19cb0b:0x5efd9cc835e79b54!8m2!3d37.4635519!4d-122.4285862"><b>Half Moon Bay</b></a>, just outside San Francisco. Although some might say the Pacific fog is depressing, I find it to be a peaceful, calming presence that relaxes my body and focuses my mind. Below is a picture of my dog, Maya.
 			</p>
-			<span>
 			<figure>
 				<picture>
 					<img src="dog.jpg" width="250"/>
 				</picture>
 				<figcaption>Maya has just torn out the stuffing of her toy</figcaption>
 			</figure>
-			</span>
 		</section>
+		<span>Span!</span>
 		<p>Now for something <strong>important!</strong></p>
 		<p>And now for something <em><em>really important!</em></em></p>
 		<p>Some <code>code beep boop</code></p>
@@ -75,10 +71,11 @@
 		<canvas width="100" height="100"></canvas>
 		<p>A circle with SVG!</p>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="200" stroke="blue" fill="green">
-			<circle cx="5" cy="5" r="4">
+			<circle cx="5" cy="5" r="4"/>
 		</svg>
 		<p>What about a table?</p>
 		<table>
+			<caption>Yep, that's a table</caption>
 			<colgroup>
 				<col/>
 				<col/>
@@ -109,7 +106,6 @@
 				<td>No</td>
 				<td>No</td>
 			</tr>
-			<caption>Yep, that's a table</caption>
 		</table>
 		<p>A form!</p>
 		<form>
@@ -135,74 +131,74 @@
 						<option>Bitches Brew - Miles Davis</option>
 					</optgroup>
 				</select>
-			</div></br>
+			</div><br/>
 			<div>
 				<label>What makes this album so good? </label><br/><br/>
 				<textarea rows="5" cols="33"></textarea>
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Who is the best Dota 2 hero for mid? </label>
 				<input list="heroes" type="text">
 
 				<datalist id="heroes">
-					<option value="Ember Spirit"/>
-					<option value="Templar Assassin"/>
-					<option value="Queen of Pain"/>
-					<option value="Storm Spirit"/>
-					<option value="Leshrac"/>
-					<option value="Viper"/>
-					<option value="Zeus"/>
-					<option value="Huskar"/>
+					<option value="Ember Spirit">
+					<option value="Templar Assassin">
+					<option value="Queen of Pain">
+					<option value="Storm Spirit">
+					<option value="Leshrac">
+					<option value="Viper">
+					<option value="Zeus">
+					<option value="Huskar">
 				</datalist>
-			</div><br>
+			</div><br/>
 			<div>
 				<label>Birthday? </label>
 				<input type="date">
-			</div></br>
+			</div><br/>
 			<div>
 				<input type="checkbox">
 				<label> Agree to terms</label>
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Give me your computer file </label>
 				<input type="file">
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Give me an integer </label>
 				<input type="number">
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Give me about a 7</label>
 				<input type="range" min="1" max="10">
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Give me the time (exact) </label>
 				<input type="time">
-			</div></br>
+			</div><br/>
 			<div>
 				<label>Give me the best color (exact) </label>
 				<input type="color">
-			</div></br>
+			</div><br/>
 			<fieldset>
 				<legend>Choose the option!</legend>
 				
 				<input type="radio">
-				<label></label>The option</br>
+				<label></label>The option<br/>
 				
 				<input type="radio">
-				<label></label>option</br>
+				<label></label>option<br/>
 
 				<input type="radio">
-				<label></label>the option!</br>
-			</fieldset></br>
+				<label></label>the option!<br/>
+			</fieldset><br/>
 			<div>
 				<input type="submit" value="Submit form to nobody">
 			</div>
-		</form></br>
+		</form><br/>
 		<details>
 			<summary>Hours in Dota 2</summary>
 			2,281
-		</details></br>
+		</details><br/>
 		<button onclick="alert('Click!')">Click the button!</button>
 		<template>
 			Spooky hidden template inside Inspect Element!
