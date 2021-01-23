@@ -14,6 +14,8 @@ header div {
     background-color: hsl(304, 47%, 60%);
     margin: auto;
     padding-bottom: 0.2in;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #canvas {
