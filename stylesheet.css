@@ -39,3 +39,7 @@ p {
 button:hover {
     background-color: aquamarine;
 }
+
+button:active {
+    background-color: crimson;
+}
