@@ -9,6 +9,7 @@
 nav.nav {
     color: rgb(98, 181, 153);
     margin-bottom: 5%;
+    display: inline-block;
 }
 
 header div {
@@ -27,6 +28,14 @@ header div {
     border-radius: 5px;
 }
 
+p {
+    display: block;
+}
+
 [controls] {
     padding: 4pt;
+}
+
+button:hover {
+    background-color: aquamarine;
 }
