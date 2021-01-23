@@ -6,10 +6,14 @@
 
 nav.nav {
     color: rgb(98, 181, 153);
+    margin-bottom: 5%;
 }
 
 header div {
+    width: 70vw;
     background-color: hsl(304, 47%, 60%);
+    margin: auto;
+    padding-bottom: 0.2in;
 }
 
 #canvas {
@@ -17,4 +21,8 @@ header div {
     border-color: black;
     border-width: 1em;
     border-radius: 5px;
+}
+
+[controls] {
+    padding: 4pt;
 }
