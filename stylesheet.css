@@ -1,0 +1,88 @@
+/* Welcome to the CSS stylesheet for this website! */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+nav.nav {
+    color: rgb(98, 181, 153);
+    margin-top: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 5%;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    background-color: lightgray;
+}
+
+header {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div {
+    width: 70vw;
+    background-color: hsl(304, 47%, 60%);
+    margin: auto;
+    padding-bottom: 0.2in;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    right: 40px;
+}
+
+#canvas, svg {
+    border-style: ridge;
+    border-color: black;
+    border-width: 1em;
+    border-radius: 5px;
+}
+
+div ~ section {
+    background-color: lightsalmon;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 10% 5% auto 5% 10%;
+    grid-template-rows: 25% auto 25%;
+}
+
+#section1 > h2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+h2 + div {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+p {
+    display: block;
+    max-width: 65%;
+}
+
+[controls] {
+    padding: 4pt;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+button:active {
+    background-color: crimson;
+}
