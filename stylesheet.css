@@ -39,11 +39,35 @@ header div {
     right: 40px;
 }
 
-#canvas {
+#canvas, svg {
     border-style: ridge;
     border-color: black;
     border-width: 1em;
     border-radius: 5px;
+}
+
+div ~ section {
+    background-color: lightsalmon;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 10% 5% auto 5% 10%;
+    grid-template-rows: 25% auto 25%;
+}
+
+#section1 > h2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+h2 + div {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 p {
