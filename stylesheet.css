@@ -1,0 +1,13 @@
+/* Welcome to the CSS stylesheet for this website! */
+
+* {
+	
+}
+
+nav.nav {
+    color: rgb(98, 181, 153);
+}
+
+header div {
+    background-color: hsl(304, 47%, 60%);
+}
