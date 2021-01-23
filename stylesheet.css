@@ -30,6 +30,7 @@ header div {
 
 p {
     display: block;
+    max-width: 65%;
 }
 
 [controls] {
