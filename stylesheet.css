@@ -11,3 +11,10 @@ nav.nav {
 header div {
     background-color: hsl(304, 47%, 60%);
 }
+
+#canvas {
+    border-style: ridge;
+    border-color: black;
+    border-width: 1em;
+    border-radius: 5px;
+}
