@@ -8,8 +8,18 @@
 
 nav.nav {
     color: rgb(98, 181, 153);
+    margin-top: 0;
+    left: 0;
+    top: 0;
     margin-bottom: 5%;
+    width: 100%;
     display: inline-block;
+    position: fixed;
+    background-color: lightgray;
+}
+
+header {
+    margin-top: 96px;
 }
 
 header div {
@@ -19,6 +29,8 @@ header div {
     padding-bottom: 0.2in;
     text-align: center;
     text-decoration: underline;
+    position: relative;
+    right: 40px;
 }
 
 #canvas {
